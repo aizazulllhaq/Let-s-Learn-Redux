@@ -3,6 +3,7 @@ import './App.css'
 import Account from './Components/Account';
 import Bonus from './Components/Bonus';
 import Reward from './Components/Reward';
+import Admin from './Components/Admin';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <Bonus />
       <hr />
       <Reward />
+      <hr />
+      <Admin />
     </>
   )
 }
